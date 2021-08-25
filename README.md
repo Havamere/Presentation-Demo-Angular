@@ -1,2 +1,2 @@
 # Presentation-Demo-Angular
-A presentational demonstration of some web development skills
+A presentational demonstration of some web development skills built in angular.js
