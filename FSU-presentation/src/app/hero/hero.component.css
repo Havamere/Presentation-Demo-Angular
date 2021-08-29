@@ -1,0 +1,12 @@
+.profile-pic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.hero-unit {
+  margin-top: 45px ;
+  background-color: #E6F1E7;
+  border-radius: 15px;
+  margin-left: 20px;
+}
