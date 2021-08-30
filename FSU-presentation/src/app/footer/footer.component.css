@@ -1,0 +1,26 @@
+a {
+  color: #000
+}
+
+a:hover {
+  color: #bbb
+}
+
+a i {
+  position: relative;
+  top: 8px;
+}
+
+.contact-section {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.contact-section li {
+  display: block;
+  float: left;
+  margin-right: 0.5rem;
+}

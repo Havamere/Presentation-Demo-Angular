@@ -2606,7 +2606,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #00a2ff;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2946,7 +2946,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #8c92ac;
 }
 
 .page-footer .footer-copyright {

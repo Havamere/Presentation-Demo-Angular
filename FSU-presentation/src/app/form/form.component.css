@@ -1,8 +1,3 @@
-.fun-text {
-  font-family: 'Dancing Script', cursive;
-  font-size: 22px;
-}
-
 .spacer {
   margin-top: 50px;
   padding-bottom: 50px;
@@ -11,4 +6,8 @@
 .spacer2 {
   margin-top: 10px;
   padding-bottom: 10px;
+}
+
+.form-explanation {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

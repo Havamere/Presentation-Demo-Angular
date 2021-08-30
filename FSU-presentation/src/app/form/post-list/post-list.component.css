@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  margin-top: 1rem auto;
+}
+
+.info-text {
+  text-align: center;
+  font-size: large;
+  margin: 10px auto;
+}
+
+.post-list {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.post-list p {
+  margin: 0.5rem auto;
+}

@@ -1,0 +1,35 @@
+<div class="m-container">
+  <mat-card>
+    <form (submit)="onFormSubmit(postForm)" #postForm="ngForm">
+      <mat-form-field appearance="outline">
+        <mat-label>Title</mat-label>
+        <input
+          matInput
+          type="text"
+          name="title"
+          placeholder="Title goes here"
+          required
+          ngModel
+          minlength="3"
+          #title="ngModel">
+          <mat-error *ngIf="title.invalid">Please enter a post title (min. 3 characters).</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Content</mat-label>
+        <textarea
+          matInput
+          rows="6"
+          name=" content"
+          placeholder="Content you can trust, because it's content."
+          required
+          ngModel
+          #content="ngModel"></textarea>
+        <mat-error *ngIf="content.invalid">Please enter some content.</mat-error>
+      </mat-form-field>
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit">Save Post</button>
+    </form>
+  </mat-card>
+</div>
