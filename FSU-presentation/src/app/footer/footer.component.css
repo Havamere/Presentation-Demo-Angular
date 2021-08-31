@@ -24,3 +24,12 @@ a i {
   float: left;
   margin-right: 0.5rem;
 }
+
+.long-sentence {
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+footer {
+  overflow-wrap: break-word;
+}
