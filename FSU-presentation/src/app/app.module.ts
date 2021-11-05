@@ -12,6 +12,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CreatePostComponent } from './form/create-post/create-post.component';
+// import { FactCardComponent } from './random-fact/fact-card/fact-card.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -25,6 +26,7 @@ import { VideoComponent } from './video/video.component';
   declarations: [
     AppComponent,
     CreatePostComponent,
+    // FactCardComponent,
     FooterComponent,
     FormComponent,
     HeaderComponent,

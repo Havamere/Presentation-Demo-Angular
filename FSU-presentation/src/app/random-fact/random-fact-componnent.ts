@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FactService } from '../random-fact.service'
+import { FactService } from './random-fact.service';
 
 @Component({
   selector: 'app-random-fact',
