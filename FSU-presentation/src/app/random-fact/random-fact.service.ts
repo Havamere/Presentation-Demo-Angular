@@ -23,7 +23,6 @@ export class FactService {
           .get<any[]>(`${this.apiURL}${this.format}.${this.ext}?language=${this.lang}`)
           .pipe(map(data => {
             let newFact = [];
-            // console.dir(data);
             newFact.push(data);
             return newFact;
           }));
